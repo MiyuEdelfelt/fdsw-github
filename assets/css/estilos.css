@@ -10,6 +10,10 @@ body {
   background-position: left;
 }
 
+#Hero-Section .text-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
 /* Mis trabajos */
 #Mis-trabajos .project-card {
   transition: transform 0.3s;
@@ -57,11 +61,11 @@ body {
 }
 
 .navbar-brand-text {
-    font-size: 2rem; 
-    font-weight: bold;
-    color: white; 
-    padding: 0.5rem 1rem; 
-    display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
 }
 
 footer a {
