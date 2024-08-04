@@ -55,3 +55,11 @@ body {
     width: 100px;
   }
 }
+
+.navbar-brand-text {
+    font-size: 2rem; 
+    font-weight: bold;
+    color: white; 
+    padding: 0.5rem 1rem; 
+    display: inline-block;
+}
