@@ -3,7 +3,6 @@ body {
 }
 
 /* Hero Section */
-
 #Hero-Section {
   background-image: url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
@@ -12,16 +11,36 @@ body {
 }
 
 /* Mis trabajos */
+#Mis-trabajos .project-card {
+  transition: transform 0.3s;
+}
 
-#Mis-trabajos .image-top {
+#Mis-trabajos .project-card:hover {
+  transform: scale(1.05);
+}
+
+#Mis-trabajos .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#Mis-trabajos .card .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  flex-shrink: 0;
+}
+
+#Mis-trabajos .card .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Contacto */
-
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
@@ -32,8 +51,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
